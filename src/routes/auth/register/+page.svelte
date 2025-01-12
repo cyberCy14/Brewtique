@@ -1,5 +1,4 @@
 <script>
-    import google from "$lib/assets/icons/google.svg";
     import bg2 from "$lib/assets/backgrounds/bg2.jpg";
 
     import { user } from "$lib/stores/state.svelte.js";
