@@ -4,7 +4,7 @@ export async function load({ params, fetch }) {
 
     const URL = `${PUBLIC_API_URL}/api/coffee/${params.coffeeID}`;
 
-    // console.log(URL);
+    console.log(URL);
     
     try {
         const response = await fetch(URL, {
