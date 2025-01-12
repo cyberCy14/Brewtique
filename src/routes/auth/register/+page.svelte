@@ -1,4 +1,5 @@
 <script>
+    import google from "$lib/assets/icons/google.svg";
     import bg2 from "$lib/assets/backgrounds/bg2.jpg";
 
     import { user } from "$lib/stores/state.svelte.js";
@@ -48,11 +49,9 @@
                 // window.location.href = '/auth/login';
             } else {
                 alert(`Registration failed: ${data.message || 'An error occurred.'}`);
-                
             }
         } catch (error) {
             console.error('Error during registration:', error);
-            console.log(URL);
             alert("An error occurred during registration. Please try again.");
         }
     }
@@ -204,12 +203,6 @@ label{
 .btn:hover {
     background-color: var(--text-white);
     color: var(--text-black);
-}
-
-.divider {
-    text-align: center;
-    margin: 0.5rem 0;
-    color: #888;
 }
 
 
