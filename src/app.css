@@ -1,0 +1,15 @@
+:root{
+    --primary-color: #6F4E37;
+    --text-white: #FEFAF6;
+    --text-black: #493628;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
