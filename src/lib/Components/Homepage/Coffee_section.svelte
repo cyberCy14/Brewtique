@@ -142,6 +142,7 @@ p {
         align-items: center;
         padding: 2em 0; 
         margin-top: -25em;
+        margin-bottom: 30em;
     }
 
 

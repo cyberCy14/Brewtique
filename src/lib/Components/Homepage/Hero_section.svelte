@@ -104,7 +104,8 @@
             height: 50vh;
             position: relative; 
             display: flex; 
-            margin-top: 5em;
+            margin-top: 10em;
+            margin-bottom:35em;
             align-items: center;
         }
 
@@ -114,6 +115,7 @@
             right: 0;
             width: 50%;
             height: auto;
+            margin-top: -8em;
             background-size: cover; 
             z-index: -1; 
         }
