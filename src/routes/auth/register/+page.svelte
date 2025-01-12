@@ -48,9 +48,11 @@
                 // window.location.href = '/auth/login';
             } else {
                 alert(`Registration failed: ${data.message || 'An error occurred.'}`);
+                
             }
         } catch (error) {
             console.error('Error during registration:', error);
+            console.log(URL);
             alert("An error occurred during registration. Please try again.");
         }
     }
