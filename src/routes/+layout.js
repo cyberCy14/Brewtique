@@ -7,7 +7,7 @@ export async function load({fetch}) {
     
     // Get all coffees
     try {
-        const response = await fetch(`${PUBLIC_API_URL}/api/coffees`, {
+        const response = await fetch(`https://brewtique-laravel-production.up.railway.app/api/coffees`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',

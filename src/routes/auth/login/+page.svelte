@@ -11,7 +11,7 @@
     import { PUBLIC_API_URL } from "$env/static/public";
 
 
-    const apiUrl = `${PUBLIC_API_URL}/api/auth/login`;
+    const apiUrl = "https://brewtique-laravel-production.up.railway.app/api/auth/login";
 
     async function handleSubmit(e) {
         e.preventDefault();

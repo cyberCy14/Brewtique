@@ -36,7 +36,7 @@
   
     const handleDelete = async (cartID) =>{
         try {
-            const response = await fetch(`${PUBLIC_API_URL}/api/cart/${cartID}`, {
+            const response = await fetch(`https://brewtique-laravel-production.up.railway.app/api/cart/${cartID}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
