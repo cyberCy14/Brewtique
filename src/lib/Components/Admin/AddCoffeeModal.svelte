@@ -63,7 +63,7 @@
       // console.log(dataToSend);
       
       try {
-          const res = await fetch(`${PUBLIC_API_URL}/api/coffees`, {
+          const res = await fetch(`https://${PUBLIC_API_URL}/api/coffees`, {
               method: 'POST',
               body: dataToSend
           });

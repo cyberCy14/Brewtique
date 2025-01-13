@@ -2,7 +2,7 @@ import { PUBLIC_API_URL } from '$env/static/public';
 
 export async function load({ params, fetch }) {
 
-    const URL = `${PUBLIC_API_URL}/api/coffee/${params.coffeeID}`;
+    const URL = `https://${PUBLIC_API_URL}/api/coffee/${params.coffeeID}`;
 
     // console.log(URL);
     

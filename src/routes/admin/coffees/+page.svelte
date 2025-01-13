@@ -40,7 +40,7 @@
     async function deleteProduct(productId) {
       if (confirm('Are you sure you want to delete this product?')) {
           try {
-            const res = await fetch(`${PUBLIC_API_URL}/api/coffee/${productId}`, {
+            const res = await fetch(`https://${PUBLIC_API_URL}/api/coffee/${productId}`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'

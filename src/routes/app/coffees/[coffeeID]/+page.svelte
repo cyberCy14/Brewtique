@@ -34,7 +34,7 @@
             formData = JSON.stringify(formData)
             // console.log(formData);
             
-            const response = await fetch(`${PUBLIC_API_URL}/api/cart`, {
+            const response = await fetch(`https://${PUBLIC_API_URL}/api/cart`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
