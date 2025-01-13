@@ -74,7 +74,7 @@
     <div class="form-container fade-in-right">
         <div class="register-form">
             <h2>Sign Up</h2>
-            <form onsubmit={handleSubmit} method="POST" action="https://brewtique-laravel-production.up.railway.app/api/auth/register" class="svelte-19u7qs5">
+            <form onsubmit={handleSubmit} method="POST">
                 <div class="input-group">
                     <label for="name">Full Name</label>
                     <input type="text" name="name" id="name" placeholder="Enter full name" required>
