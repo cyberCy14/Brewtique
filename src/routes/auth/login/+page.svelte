@@ -11,7 +11,7 @@
     import { PUBLIC_API_URL } from "$env/static/public";
 
 
-    const apiUrl = `https://${PUBLIC_API_URL}/api/auth/login`;
+    const apiUrl = `${PUBLIC_API_URL}/api/auth/login`;
 
     async function handleSubmit(e) {
         e.preventDefault();

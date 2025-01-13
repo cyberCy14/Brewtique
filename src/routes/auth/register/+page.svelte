@@ -8,7 +8,7 @@
 
     import { PUBLIC_API_URL } from "$env/static/public";
 
-    const apiUrl = `https://${PUBLIC_API_URL}/api/auth/register`;
+    const apiUrl = `${PUBLIC_API_URL}/api/auth/register`;
 
     async function handleSubmit(e) {
         e.preventDefault();
