@@ -24,6 +24,7 @@ export async function load({fetch}) {
     } catch (error) {
         let errorMessage = 'Error fetching coffee items.';
         console.error('Error fetching coffee items:', error);
+        console.log(`${PUBLIC_API_URL}/api/coffees`);
     }
 
 
