@@ -63,7 +63,7 @@
       // console.log(dataToSend);
       
       try {
-          const res = await fetch("https://brewtique-laravel-production.up.railway.app/api/coffees", {
+          const res = await fetch(`${PUBLIC_API_URL}/api/coffees`, {
               method: 'POST',
               body: dataToSend
           });
