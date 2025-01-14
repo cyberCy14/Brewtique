@@ -18,6 +18,13 @@ export const fetchUser = async () => {
             user.orders = await fetchUserOders(user.accessToken);
             //user Data
 
+            if (user.orders[0] === undefined){
+                user.orders[0] = {              
+                    order_number : 0,
+                    total_price : 0
+                }    
+            }
+
         } else {
             user.isAuthenticated = false;
             user.name = null;
