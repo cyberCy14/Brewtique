@@ -58,7 +58,7 @@
           <!-- Cart icon -->
           {#if user.isAuthenticated == true}
             <!-- Profile Dropdown removed -->
-            <button class="log-in" onclick={handleLogout}>Log Out</button>
+            <button class="log-out" onclick={handleLogout}>Log Out</button>
         {:else}
             <!-- Only Login and Signup -->
             <a class="log-in" href="/auth/login">Login</a>
@@ -145,10 +145,6 @@
       margin-right: 1em;
   }
 
-  .profile-icon {
-      width: 1.9rem;   
-  }
-
   .hamburger {
       display: none;
       cursor: pointer;
@@ -191,6 +187,17 @@
       opacity: 80%;
   }
 
+
+.log-out{
+        background-color: var(--primary-color); 
+        color: var(--text-white);              
+      font-size: 1.2em;            
+      padding: 5px 5px;         
+      border: none;               
+      border-radius: 5px;         
+      cursor: pointer;           
+      transition: background-color 0.3s ease; 
+}
 
 
   .log-in, .sign-up{
