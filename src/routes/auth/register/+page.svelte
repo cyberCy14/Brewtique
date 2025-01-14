@@ -10,6 +10,9 @@
 
     const apiUrl = `${PUBLIC_API_URL}/api/auth/register`;
 
+    alert('When you want to open the admin: [Email: admin@gmail.com, Password: admin123');
+
+
     async function handleSubmit(e) {
         e.preventDefault();
 
