@@ -57,24 +57,13 @@
       <div class="icons">
           <!-- Cart icon -->
           {#if user.isAuthenticated == true}
-
-
-              <!-- Profile Dropdown -->
-              <!-- svelte-ignore a11y_click_events_have_key_events -->
-              <button class="logout" onclick={handleLogout}>Log Out</button>
-
-                  <!-- <img src={profile} class="profile-icon" alt="Profile icon" /> -->
-
-                          <!-- <a href="/app/profile" class="dropdown-item">Profile</a> -->
-                              <!-- svelte-ignore node_invalid_placement_ssr -->
-                      <!-- </div>  
-                  {/if}
-                </a> -->
-
-          <!-- {:else}
-              <a  class="log-in" href="/auth/login">Login</a>
-              <a  class="sign-up" href="/auth/register">Signup</a>
-          {/if} -->
+            <!-- Profile Dropdown removed -->
+            <button class="logout" onclick={handleLogout}>Log Out</button>
+        {:else}
+            <!-- Only Login and Signup -->
+            <a class="log-in" href="/auth/login">Login</a>
+            <a class="sign-up" href="/auth/register">Signup</a>
+        {/if}
 
 
 
