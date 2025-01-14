@@ -66,7 +66,7 @@
 
                   {#if isDropdownOpen}
                       <div class="dropdown-menu">
-                          <a href="/app/profile" class="dropdown-item">Profile</a>
+                          <!-- <a href="/app/profile" class="dropdown-item">Profile</a> -->
                               <!-- svelte-ignore node_invalid_placement_ssr -->
                               <button class="logout" onclick={handleLogout}>Log Out</button>
                       </div>  
