@@ -45,7 +45,7 @@
                 // console.log('Registration successful:', data);
                 alert('Registration successful');
                 fetchUser();
-                goto('/');
+                goto('/auth/login');
                 // window.location.href = '/auth/login';
             } else {
                 alert(`Registration failed: ${data.message || 'An error occurred.'}`);

@@ -47,7 +47,7 @@
                 localStorage.setItem('token', data.access_token); 
                 localStorage.setItem('username', data.user.name);
                 fetchUser();
-                goto('/auth/login')
+                goto('/')
                 // location.reload()
                 
 
