@@ -58,7 +58,7 @@
           <!-- Cart icon -->
           {#if user.isAuthenticated == true}
             <!-- Profile Dropdown removed -->
-            <button class="logout" onclick={handleLogout}>Log Out</button>
+            <button class="log-out" onclick={handleLogout}>Log Out</button>
         {:else}
             <!-- Only Login and Signup -->
             <a class="log-in" href="/auth/login">Login</a>
