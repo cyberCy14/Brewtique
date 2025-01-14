@@ -61,22 +61,20 @@
 
               <!-- Profile Dropdown -->
               <!-- svelte-ignore a11y_click_events_have_key_events -->
-              <a class="profile-container" onclick={toggleDropdown}>
-                  <img src={profile} class="profile-icon" alt="Profile icon" />
+              <button class="logout" onclick={handleLogout}>Log Out</button>
 
-                  {#if isDropdownOpen}
-                      <div class="dropdown-menu">
+                  <!-- <img src={profile} class="profile-icon" alt="Profile icon" /> -->
+
                           <!-- <a href="/app/profile" class="dropdown-item">Profile</a> -->
                               <!-- svelte-ignore node_invalid_placement_ssr -->
-                              <button class="logout" onclick={handleLogout}>Log Out</button>
-                      </div>  
+                      <!-- </div>  
                   {/if}
-                </a>
+                </a> -->
 
-          {:else}
+          <!-- {:else}
               <a  class="log-in" href="/auth/login">Login</a>
               <a  class="sign-up" href="/auth/register">Signup</a>
-          {/if}
+          {/if} -->
 
 
 
