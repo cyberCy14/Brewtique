@@ -79,13 +79,15 @@
                 }
             });
 
+
             if (!response.ok) {
                 throw new Error('Failed to place order.');
             }
+            goto('/app/cart/thanks');
+
             user.cart = [];
 
            fetchUser();
-            goto('/app/cart/thanks');
             
 
         } catch (error) {
